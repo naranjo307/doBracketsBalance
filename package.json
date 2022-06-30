@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "jest",
+    "grade": "jest --useStderr --json --outputFile=./tests/result.json",
+    "submit": "node submit.js"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
